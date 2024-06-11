@@ -16,7 +16,7 @@ def analyze_and_solve(text):
 
 st.title('System Health & Vulnerability Scan Analyzer')
 
-directory = '/home/svrt/Documents/CohereChat/Monitoring'
+directory = 'Folder to get the txt files from'
 
 txt_files = [f for f in os.listdir(directory) if f.endswith('.txt')]
 
