@@ -2,7 +2,7 @@ import streamlit as st
 import cohere
 import os
 
-co = cohere.Client('cO3335BxVhKNiivvKTuNBP7IRQ6HXdt2NPhKZNjd')
+co = cohere.Client("Your Cohere API key here")
 
 def analyze_and_solve(text):
     response = co.generate(
